@@ -1,0 +1,22 @@
+{
+    "name": "Videojuegos más jugados del 2024",
+    "short_name": "Videojuegos",
+    "description": "Una lista de los videojuegos más populares actualmente.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#333333",
+    "icons": [
+      {
+        "src": "icon-50x50.png",
+        "sizes": "50x50",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

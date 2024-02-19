@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuegos más jugados del 2024</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <h1>Videojuegos más jugados</h1>
+    </header>
+<script>
+     if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(registration => {
+            console.log('Service Worker registrado con éxito: ', registration.scope);
+          })
+          .catch(error => {
+            console.error('Error al registrar el Service Worker: ', error);
+          });
+      });
+    }
+</script>
+    <main>
+        <div class="scrollable">
+            <ul id="videojuegos-lista">
+                 <!-- Primer lugar-->
+                <li>
+                    <img src="https://sm.ign.com/ign_es/cover/p/palworld/palworld_7xfn.jpg" height="50px" width="50px" alt="Palworld">
+                    <span>Pal World</span>
+                </li>
+                <!-- Segundo lugar-->
+                <li>
+                    <img src="https://i.blogs.es/0269aa/baldur-s-gate-3-pc-ps5-xbox/375_375.webp" height="50px" width="50px" alt="Baldur">
+                    <span>Baldur's Gate</span>
+                </li>
+                <!-- Tercer lugar  -->
+                <li>
+                    <img src="https://static.bandainamcoent.eu/high/tekken/tekken-8/00-page-setup/TEKKEN8_Header_mobile_2.jpg" height="50px" width="50px" alt="Tekken">
+                    <span>Tekken 8 </span>
+                </li>
+                <!-- Cuarto lugar  -->
+                <li>
+                    <img src="https://i.ytimg.com/vi/JldMvQMO_5U/maxresdefault.jpg"  height="50px" width="50px"  alt="Elden">
+                    <span>Elden Ring</span>
+                </li>
+                <!-- Quinto Lugar  -->
+                <li>
+                    <img src="https://uploads.saigacdn.com/2023/08/persona3-reload-preorder-00.jpg" width="50px" height="50px" alt="Persona">
+                    <span>Persona 3 Reload</span>
+                </li>
+                <!-- Sexto Lugar  -->
+
+                <li>
+                    <img src="https://www.egames.news/__export/1708295169885/sites/debate/img/2024/02/18/los_fans_de_mario_vs_donkey_kong_amaron_mxs_el_final_del_remake_que_el_del_original.jpg_554688468.jpg"  height="50px" width="50px"  alt="Mario">
+                    <span>Mario vs Donkeykong</span>
+                </li>
+                <!-- Septimo Lugar  -->
+                <li>
+                    <img src="https://sm.ign.com/ign_es/cover/l/lethal-com/lethal-company_817h.jpg" height="50px" width="50px" alt="Lethal">
+                    <span>Lethal Company</span>
+                </li>
+                <!-- Octavo Lugar  -->
+
+                <li>
+                    <img src="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2023/08/call-of-duty-modern-warfare-3-2.jpeg?fit=1920%2C1147&quality=50&strip=all&ssl=1" height="50px" width="50px" alt="Cod">
+                    <span>Cod MW3</span>
+                </li>
+                <!--Noveno Lugar  -->
+
+                <li>
+                    <img src="https://assets-prd.ignimgs.com/2022/01/28/killthejusticeleague-sq-1643333156898.jpg" height="50px" width="50px" alt="Suicide">
+                    <span>Suicide Squad</span>
+                </li>
+          
+            </ul>
+        </div>
+       <center><button id="export-btn">Exportar a JSON</button></center> 
+
+    </main>
+
+    <footer>
+        <p>© Luis Bernardo Garcia Hernandez</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

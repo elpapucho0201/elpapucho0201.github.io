@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 40px;
+    background-color: #f4f4f4;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Estilos existentes */
+
+.scrollable {
+    max-height: 300px; /* Altura máxima de la lista */
+    overflow-y: auto; /* Habilitar desplazamiento vertical */
+}
